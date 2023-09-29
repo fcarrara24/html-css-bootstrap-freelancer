@@ -1,25 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 
 :root{
     --bg_hero: #1abc9c;
 }
 
-.col-12 {
-}
-.img-container {
-}
-.img-round {
-}
-.col-6 {
-}
-.text-center {
-}
-.pt-xxl-5 {
-}
-.fl-center {
-}
-.col {
+.picture{
+   
+    
 }
 
+.img-container{
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
 .mid_line{
     width: 50%;
     height: 20%;
@@ -27,5 +31,9 @@
 }
 
 #hero{
+    background-color: var(--bg_hero);
+}
+
+#about{
     background-color: var(--bg_hero);
 }
