@@ -1,0 +1,31 @@
+
+:root{
+    --bg_hero: #1abc9c;
+}
+
+.col-12 {
+}
+.img-container {
+}
+.img-round {
+}
+.col-6 {
+}
+.text-center {
+}
+.pt-xxl-5 {
+}
+.fl-center {
+}
+.col {
+}
+
+.mid_line{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+}
+
+#hero{
+    background-color: var(--bg_hero);
+}
