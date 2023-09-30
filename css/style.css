@@ -8,6 +8,7 @@
 
 :root{
     --bg_hero: #1abc9c;
+    --bg-grey: #3a546d;
 }
 
 .img-container{
@@ -25,10 +26,26 @@ img{
     background-color: white;
 }
 
+.my-circle{
+    width: 2em;
+    height: 2em;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+.my-circle i{
+    transform: translate(5%, 10%);
+}
+
 #hero{
     background-color: var(--bg_hero);
 }
 
 #about{
     background-color: var(--bg_hero);
+}
+
+#info{
+    background-color: var(--bg-grey);
 }
