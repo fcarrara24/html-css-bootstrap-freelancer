@@ -55,20 +55,29 @@ nav > div{
     z-index: 200;
 }
 
+.my-star{
+    letter-spacing: 0.5em;
+}
+
+nav{
+    width: 100%;
+    z-index: 2000;
+}
+
 
 .my-star:after, .my-star:before{
     content: "";
     display: block;
-    background-color: yellow;
-    width: 150px;
+    background-color: white;
+    width: 10vw;
     height: 3px;;
 }
 
-.mid_line{
-    width: 50%;
-    height: 20%;
-    background-color: white;
+.darkstar > .my-star:after, .darkstar> .my-star:before{
+   background-color: black;
 }
+
+
 
 .my-circle{
     width: 2em;
@@ -81,6 +90,7 @@ nav > div{
 .my-circle i{
     transform: translate(5%, 10%);
 }
+
 
 #hero, #about, .bg-green{
     background-color: var(--bg_hero);
