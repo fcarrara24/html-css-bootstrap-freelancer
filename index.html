@@ -162,77 +162,29 @@
         </div>
 
 
-        <div id="call_to_action">
-            <div class="container">
-                <div class="row flex-md-column justify-content-center d-flex align-content-center">
-                    <div class="col-11 d-flex flex-column align-items-center">
-                        <h1 class="text-center text-uppercase p-5">
-                            contact me
-                        </h1>
-                        <div class= " col-6 row py-4 ">
-                          <div class="row py-4">
-                            <div class="col fl-center d-flex flex-row-reverse px-0 text-dark">
-                              <div class="mid_line align-self-center" style="background-color: black;"></div>
-                            </div>
-                            <div class="col-1 text-center text-dark d-inline-block">
-                              <i class="fa-solid fa-star"></i>
-                            </div>
-                            <div class="col fl-center d-flex flex-row px-0 ">
-                              <div class="mid_line align-self-center" style="background-color: black;"></div>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="col-11 ">      
-                        <h4 class="text-left  px-5 py-4 border-bottom border-dark ">
-                          Name
-                        </h4>
-                    </div>
-                    <div class="col-11 ">      
-                      <h4 class="text-left  px-5 py-4 border-bottom border-dark ">
-                        Email Address
-                      </h4>
-                    </div>
-                    <div class="col-11 ">      
-                      <h4 class="text-left  px-5 py-4 border-bottom border-dark ">
-                        Phone Number
-                      </h4>
-                    </div>
-                    <div class="col-11 ">      
-                      <h4 class="text-left  px-5 py-4  ">
-                        Message
-                      </h4>
-                    </div>
+        
 
-                    <div class="col-11 mt-5 p-5 pt-3 border-top border-dark-subtle ">      
-                      <div class=" bg-green rounded p1 d-inline-block ">
-                        <h4 class="p-2 text-light">Send</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-
-            <div class="correctedC2A">
-              <form class="container p-5">
-                <div class="mb-3">
+            <div class=" row" id="call_to_action">
+              <form class="container p-5 col-9">
+                <div class="mb-3 ">
                   
-                  <input type="email" class="form-control border-0 border-bottom" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                  <input type="text" class="form-control border-0 px-0" id="text" aria-describedby="emailHelp" placeholder="Name">
                   
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 ">
+                  <input type="email" class="form-control border-0 px-0" id="email" aria-describedby="emailHelp" placeholder="Email Address">
                   
-                  <input type="number" class="form-control border-0 border-bottom" id="exampleInputPassword1" placeholder="Phone Number">
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 ">
                   
-                  <textarea class="form-control border-0 border-bottom" id="exampleInputPassword1" placeholder="Message"></textarea>
+                  <input type="number" class="form-control border-0 px-0" id="number" placeholder="Phone Number">
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <div class="mb-3 ">
+                  
+                  <textarea class="form-control border-0  text-primary px-0" id="inputText" placeholder="Message"></textarea>
                 </div>
-                <button type="submit" class="btn btn-success">Send</button>
+                
+                <button type="submit" class="btn " id="greenBtn">Send</button>
               </form>
             </div>
 

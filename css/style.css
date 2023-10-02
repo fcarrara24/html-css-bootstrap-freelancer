@@ -2,6 +2,7 @@
 :root{
     --bg_hero: #1abc9c;
     --bg-grey: #3a546d;
+    --border-form: #efefef;
 }
 
 /* img container */
@@ -75,6 +76,27 @@
 #hero, #about, .bg-green{
     background-color: var(--bg_hero);
 }
+#greenBtn{
+    background-color: var(--bg_hero);
+    color: white;
+    font-weight: bolder;
+}
+
+#inputText{
+    height: 140px;
+}
+
+
+form > *{
+    border-bottom: 2px solid var(--border-form);
+}
+
+#text, #email, #number, #inputText{
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+}
+
 
 
 #hero img{
