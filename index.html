@@ -22,33 +22,71 @@
   </head>
   <body>
     <header>
-      <nav>navbar</nav>
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Start Boostrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
       <div id="hero" class="py-5">
         <div class="container">
           <div class="row">
             <div id="hero-content" class="col-12 row justify-content-center">
-              <div class="img-container row justify-content-center">
-                <div class="img-round col-6">
+              <div class="img-container  justify-content-center">
+                <div class=" d-flex justify-content-center align-content-center">
                   <img src="img/avatar.svg" alt="" />
                 </div>
                 <h1
                   id="hero-title"
-                  class="text-center text-uppercase fs-1 pt-5 fw-bold text-light"
+                  class="text-center text-uppercase fs-1 pt-5 fw-bold text-light display-1"
                 >
                   START BOOSTRAP
                 </h1>
               </div>
               <div id="hero-division" class="col-6 justify-content-center">
-                <div class="row py-4">
-                  <div class="col fl-center d-flex flex-row-reverse px-0">
+                <div class=" py-4 d-flex flex-row">
+                  <!-- <div class="col fl-center d-flex flex-row-reverse px-0">
                     <div class="mid_line align-self-center"></div>
-                  </div>
-                  <div class="col-1 text-center text-light d-inline-block">
+                  </div> -->
+                  <div class=" text-center text-light d-inline-block my-star justify-content-center align-items-center">
                     <i class="fa-solid fa-star"></i>
                   </div>
-                  <div class="col fl-center d-flex flex-row px-0">
+                  <!-- <div class="col fl-center d-flex flex-row px-0">
                     <div class="mid_line align-self-center"></div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div id="hero-description" class="col-12">
@@ -87,34 +125,37 @@
         </DIV>
         <div class="container ">
             <div class="row">
-                <div class=" col-sm-12 col-md-6 col-xl-4 p-3 picture">
-                    <div class="img-container"><img src="img/cabin.png" alt=""></div>
+                <div class=" col-12 col-md-6 col-lg-4 p-3 my_picture">
+                    <div class="my-img-container"><img src="img/cabin.png" alt=""></div>
                 </div>
-                <div class=" col-sm-12 col-md-6 col-xl-4 p-3 picture">
-                    <div class="img-container"><img src="img/cake.png" alt=""></div>
+                <div class=" col-12 col-md-6 col-lg-4 p-3 my_picture">
+                    <div class="my-img-container"><img src="img/cake.png" alt=""></div>
                 </div>
-                <div class=" col-sm-12 col-md-6 col-xl-4 p-3 picture">
-                    <div class="img-container"><img src="img/circus.png" alt=""></div>
+                <div class=" col-12 col-md-6 col-lg-4 p-3 my_picture">
+                    <div class="my-img-container"><img src="img/circus.png" alt=""></div>
                 </div>
-                <div class=" col-sm-12 col-md-6 col-xl-4 p-3 picture">
-                    <div class="img-container"><img src="img/game.png" alt=""></div>
+                <div class=" col-12 col-md-6 col-lg-4 p-3 my_picture">
+                    <div class="my-img-container"><img src="img/game.png" alt=""></div>
                 </div>
-                <div class=" col-sm-12 col-md-6 col-xl-4 p-3 picture">
-                    <div class="img-container"><img src="img/safe.png" alt=""></div>
+                <div class=" col-12 col-md-6 col-lg-4 p-3 my_picture">
+                    <div class="my-img-container"><img src="img/safe.png" alt=""></div>
                 </div>
-                <div class=" col-sm-12 col-md-6 col-xl-4 p-3 picture">
-                    <div class="img-container"><img src="img/submarine.png" alt=""></div>
+                <div class=" col-12 col-md-6 col-lg-4 p-3 my_picture">
+                    <div class="my-img-container"><img src="img/submarine.png" alt=""></div>
                 </div>
             </div>
         </div>
 
         <div id="about" class="p-5">
-            <div class="container align-center d-flex justify-content-center">
-                <div class=" col-10 justify-self-center">
+            <div class="container align-center d-flex justify-content-center align-content-center">
+                <div class=" col-10 justify-self-center ">
                     <h2 class="align-center text-light text-uppercase text-center pb-5">about</h2>
                     <div id="row_description" class="row">
-                        <div class="col-md-6 col-sm-12 text-light px-2 h4 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni ipsum quisquam eveniet quidem adipisci vitae possimus eum ipsam animi!</div>
-                        <div class="col-md-6 col-sm-12 text-light px-2 pt-sm-4 pt-md-0 h4 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et laboriosam vero voluptatem omnis autem. Rerum dignissimos excepturi architecto sapiente in.</div>
+                        <div class="col-md-6 col-12 text-light px-2 h4 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni ipsum quisquam eveniet quidem adipisci vitae possimus eum ipsam animi!</div>
+                        <div class="col-md-6 col-12 text-light px-2 pt-sm-4 pt-md-0 h4 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et laboriosam vero voluptatem omnis autem. Rerum dignissimos excepturi architecto sapiente in.</div>
+                    </div>
+                    <div class="outer-btn d-flex justify-content-center pt-4">
+                      <button type="button" class="btn  btn-outline-light"><i class="fa-solid fa-download">&nbsp;&nbsp;Download</i></button>
                     </div>
                 </div>
             </div>
@@ -170,6 +211,29 @@
                     </div>
                   </div>
                 </div>
+            </div>
+
+            <div class="correctedC2A">
+              <form class="container p-5">
+                <div class="mb-3">
+                  
+                  <input type="email" class="form-control border-0 border-bottom" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                  
+                </div>
+                <div class="mb-3">
+                  
+                  <input type="number" class="form-control border-0 border-bottom" id="exampleInputPassword1" placeholder="Phone Number">
+                </div>
+                <div class="mb-3">
+                  
+                  <textarea class="form-control border-0 border-bottom" id="exampleInputPassword1" placeholder="Message"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-success">Send</button>
+              </form>
             </div>
 
 
