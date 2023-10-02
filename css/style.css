@@ -2,7 +2,16 @@
 :root{
     --bg_hero: #1abc9c;
     --bg-grey: #3a546d;
-    --border-form: #efefef;
+    --bg-footer: #2c3e50;
+    --my-br-form: #efefef;
+}
+
+nav{
+    margin: 0;
+}
+
+nav > div{
+    background-color: var(--bg-footer);
 }
 
 /* img container */
@@ -80,6 +89,7 @@
     background-color: var(--bg_hero);
     color: white;
     font-weight: bolder;
+    width: fit-content;
 }
 
 #inputText{
@@ -87,8 +97,8 @@
 }
 
 
-form > *{
-    border-bottom: 2px solid var(--border-form);
+#call_to_action form > *{
+    border-bottom: 2px solid var(--my-br-form);
 }
 
 #text, #email, #number, #inputText{
@@ -111,3 +121,14 @@ form > *{
     background-color: var(--bg-grey);
 }
 
+#myFooter{
+    background-color: var(--bg-footer);
+
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+header > *{
+    font-weight: 600;
+}
